@@ -1,0 +1,107 @@
+
+*{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+@media screen and (max-width: 768px){
+  .carrusel{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+body{
+ background: linear-gradient(-45deg, #000080, #4169E1, #B0E0E6, #4682B4, #000080);
+ width: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+h2{
+  color: black;
+  text-align: center;
+  font-family: Poppins;
+  box-sizing: content-box;
+  height: 40px;
+  background-color: #fff;
+}
+
+.myHeader {
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.headerimg {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+#bio{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-family: Poppins;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background:
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}

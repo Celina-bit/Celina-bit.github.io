@@ -1,0 +1,135 @@
+
+:root{
+--color_progreso: #00008B;
+  --color_falta: #C0C0C0;
+}
+
+*{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  h2{
+    box-sizing: border-box;
+  }
+  .container, .container2{
+    padding: 5vw;
+  }
+  .main{
+    margin-left: 7vw;
+  }
+  .container_grafico1{
+    margin-left: 150px;
+  }
+}
+
+body{
+/* background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/38/stairway-828883_960_720.jpg);
+background-size: 100vw 100vh;
+background-attachment: fixed; */
+ background: linear-gradient(-45deg, #000080, #4169E1, #B0E0E6, #4682B4, #000080);
+ width: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+h2{
+  color: #fff;
+  text-align: center;
+  margin-left: 20px;
+  font-family: Poppins;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  height: 13vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+.container {
+  text-align: center;
+}
+
+.container_grafico1{
+   width: 100px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   margin-left:150px;
+}
+
+.container_grafico2{
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.grafico{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: conic-gradient(var(--color_falta) 60%,
+                                    var(--color_progreso) 40%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+.container, .container2 {
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-family: Poppins;
+}
+
+#frase{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-left: 20px;
+}
+
+#grafico01{
+  background-image: conic-gradient(var(--color_progreso) 90%,
+                                    var(--color_falta) 10%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico02{
+  background-image: conic-gradient(var(--color_progreso) 80%,
+                                    var(--color_falta) 20%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico03{
+  background-image: conic-gradient(var(--color_progreso) 60%,
+                                    var(--color_falta) 40%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico04{
+  background-image: conic-gradient(var(--color_progreso) 50%,
+                                    var(--color_falta) 50%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico05{
+  background-image: conic-gradient(var(--color_falta) 70%,
+                                    var(--color_progreso) 30%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
